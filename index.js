@@ -1,8 +1,8 @@
-let driverId = 0
+let driverId = 0;
 
 class Driver {
   constructor(name) {
-    driver.Id = ++driverId;
-    driver.name = name;
+    this.Id = ++driverId;
+    this.name = name;
   }
 }
