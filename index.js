@@ -32,11 +32,9 @@ class Trip {
 
   passenger() {
     return store.passengers.filter(
-            function(passenger) {
-                return passenger.id === this.passengerId;
-            }.bind(this)
-        );
-      }
-    }
+      function(passenger) {
+        return passenger.id === this.passengerId;
+      }.bind(this)
+    );
   }
 }
